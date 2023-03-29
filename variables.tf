@@ -13,7 +13,7 @@ variable "project" {
       public_subnet_count  = 1,
       private_subnet_count = 1,
       instances_per_subnet = 3,
-      instance_type        = "t2.micro",
+      instance_type        = "t2.large",
       environment          = "dev"
     },
   }
